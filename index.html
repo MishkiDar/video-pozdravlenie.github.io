@@ -3,110 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Видео-Поздравления с Любимым Голосом</title>
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #fafafa;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            text-align: center;
-        }
-        
-        .container {
-            max-width: 800px;
-            width: 100%;
-            padding: 2rem;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-            border-radius: 10px;
-            background-color: white;
-        }
-        
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 1.5rem;
-            color: #4caf50;
-        }
-        
-        p {
-            line-height: 1.6;
-            margin-bottom: 1.5rem;
-        }
-        
-        ul {
-            list-style-type: disc;
-            padding-left: 2rem;
-            margin-top: 1rem;
-            margin-bottom: 1.5rem;
-        }
-        
-        li {
-            margin-bottom: 0.5rem;
-        }
-        
-        a {
-            color: #4caf50;
-            text-decoration: none;
-            transition: all 0.3s ease-in-out;
-        }
-        
-        a:hover {
-            transform: scale(1.05);
-        }
-        
-        @media screen and (max-width: 600px) {
-            .container {
-                padding: 1rem;
-            }
-            
-            h1 {
-                font-size: 2em;
-            }
-        }
-    </style>
-  
-  <!-- Подключение шрифтов -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  
+    <title>Видео-Поздравления</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-    <h1>Видео-Поздравления с Любимым Голосом</h1>
-    
-    <p>Хотите удивить близкого человека незабываемым сюрпризом?</p>
-    <p>Теперь это возможно благодаря передовым технологиям искусственного интеллекта!</p>
-    <p>Мы предлагаем уникальную услугу — создание персонализированных видео-поздравлений от известных личностей или любых персонажей вашей мечты.</p>
-    
-    <h2>Как работает наша технология?</h2>
-    <ul>
-        <li>Наши мощные алгоритмы создают реалистичные видео с использованием голосов и образов популярных артистов, спортсменов, актеров кино и даже исторических персон.</li>
-        <li>Вы можете выбрать любое поздравление: от трогательного признания любви до веселого поздравления с днем рождения или праздником.</li>
-    </ul>
-    
-    <h2>Какие варианты поздравлений мы можем предложить?</h2>
-    <ul>
-        <li><strong>От знаменитостей:</strong> индивидуальные поздравления от любимых исполнителей, актеров, телеведущих.</li>
-        <li><strong>Исторические персонажи:</strong> уникальные обращения от знаменитых деятелей прошлого (например, Петр I, Пушкин).</li>
-        <li><strong>Фантастические герои:</strong> неповторимый подарок в стиле ваших любимых фильмов и мультфильмов.</li>
-        <li><strong>Создаем персонажа по вашему желанию:</strong> создаем виртуального двойника любого реального или воображаемого героя.</li>
-    </ul>
-    
-    <h2>Основные преимущества наших поздравлений:</h2>
-    <ul>
-        <li>Высокое качество видеороликов, созданных с помощью новейших технологий ИИ.</li>
-        <li>Индивидуальность каждого ролика — ваше сообщение записывается именно так, как вы хотите.</li>
-        <li>Быстрая доставка готового продукта прямо вам на почту.</li>
-        <li>Удобный заказ онлайн всего за пару кликов.</li>
-    </ul>
-    
-    <a href="#">Оформить заказ</a>
-</div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Видео-Поздравления">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="phone">
+                <a href="tel:88007755417">8 800 77-55-417</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Видео-Поздравления</h1>
+            <p>Создайте уникальное поздравление с помощью ИИ</p>
+            <p>Персонализированные видео от знаменитостей и других персонажей</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <img src="service1.jpg" alt="Поздравления от знаменитостей">
+                    <h3>Поздравления от знаменитостей</h3>
+                    <p>Индивидуальные поздравления от любимых исполнителей, актеров, телеведущих.</p>
+                </div>
+                <div class="service-item">
+                    <img src="service2.jpg" alt="Исторические персонажи">
+                    <h3>Исторические персонажи</h3>
+                    <p>Уникальные обращения от знаменитых деятелей прошлого (например, Петр I, Пушкин).</p>
+                </div>
+                <div class="service-item">
+                    <img src="service3.jpg" alt="Фантастические герои">
+                    <h3>Фантастические герои</h3>
+                    <p>Неповторимый подарок в стиле ваших любимых фильмов и мультфильмов.</p>
+                </div>
+                <div class="service-item">
+                    <img src="service4.jpg" alt="Создаем персонажа по вашему желанию">
+                    <h3>Создаем персонажа по вашему желанию</h3>
+                    <p>Создаем виртуального двойника любого реального или воображаемого героя.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Видео-Поздравления. Все права защищены.</p>
+        </div>
+    </footer>
 </body>
 </html>
